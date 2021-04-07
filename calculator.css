@@ -1,0 +1,55 @@
+body{
+  background-color: #ff80b3;
+  margin: 1%;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+#input{
+  position: absolute;
+  height:19%;
+  width:98%;
+  margin: 0;
+  border-radius: 20px 20px 0px 0px;
+  background-color: black;
+}
+#text{
+  position: absolute;
+  height:70%;
+  width:90%;
+  background-color: white;
+  font-size: 80px;
+  text-align: right;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+}
+#demo{
+  position: absolute;
+  height:79%;
+  width:98%;
+  top: 19%;
+  background-color: black;
+  border-radius: 0px 0px 20px 20px;
+}
+#num{
+  background-color: #ffcce0;
+  position: relative;
+  width:20%;
+  height:20%;
+  margin-top: 20px;
+  margin-left: 10px;
+  display:inline-block;
+  border-radius: 10px 10px 10px 10px;
+  cursor:pointer;
+  transform: translate(35%,5%);
+}
+span{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-size:80px;
+}
